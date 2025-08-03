@@ -1,6 +1,14 @@
 {
-  "type": "minecraft:noise",
-  "noise": "minecraft:aquifer_barrier",
-  "xz_scale": 1,
-  "y_scale": 0.5
+  "": "To stop the barrier from generating terrain above y=63",
+  "type": "minecraft:range_choice",
+  "input": "minecraft:y",
+  "min_inclusive": -64,
+  "max_exclusive": 63,
+  "when_in_range": {
+    "type": "minecraft:noise",
+    "noise": "minecraft:aquifer_barrier",
+    "xz_scale": 1,
+    "y_scale": 0.5
+  },
+  "when_out_of_range": -1
 }
