@@ -2,7 +2,7 @@
   "": "Treating as y grad = 1; range_choice just for sanity (even though offset *should* be 100%, it isn't)",
   "type": "minecraft:range_choice",
   "input": "minecraft:y",
-  "min_inclusive": 0,
+  "min_inclusive": -64,
   "max_exclusive": 63,
   "when_in_range": {
     "type": "minecraft:min",
