@@ -1,6 +1,6 @@
 {
   "": "Increased accuracy for cave consideration (removing water/grass from them)",
   "type": "minecraft:add",
-  "argument1": 0.375,
+  "argument1": 0.33,
   "argument2": "flat_dimensions:overworld/terrain/sloped_cheese"
 }
