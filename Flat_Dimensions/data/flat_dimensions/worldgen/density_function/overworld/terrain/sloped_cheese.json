@@ -1,0 +1,13 @@
+{
+  "": "Default, no jaggedness/factor; factor ~ 6.3 = least influence",
+  "type": "minecraft:mul",
+  "argument1": 4,
+  "argument2": {
+    "type": "minecraft:quarter_negative",
+    "argument": {
+      "type": "minecraft:mul",
+      "argument1": "flat_dimensions:overworld/depth",
+      "argument2": 6.3
+    }
+  }
+}

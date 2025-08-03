@@ -1,0 +1,29 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Flattens all Dimensions",
+        "color": "#aaff80"
+      },
+      "\n",
+      {
+        "text": "Made by ",
+        "color": "#AAAAAA"
+      },
+      {
+        "text": "Klinbee",
+        "color": "#ffbbbb"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": [15, 999]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "formats": [48, 999],
+        "directory": "overlay_1_21"
+      }
+    ]
+  }
+}

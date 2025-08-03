@@ -1,0 +1,5 @@
+{
+  "": "Different than default for efficiency optimization",
+  "type": "minecraft:constant",
+  "argument": 0
+}
