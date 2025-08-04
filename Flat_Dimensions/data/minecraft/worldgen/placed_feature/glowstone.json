@@ -1,6 +1,6 @@
 {
   "": "Placement modified to place on top of terrain just from a common feature request",
-  "feature": "minecraft:glowstone_extra",
+  "feature": "flat_dimensions:glowstone_extra",
   "placement": [
     {
       "type": "minecraft:rarity_filter",
