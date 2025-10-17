@@ -16,13 +16,23 @@
       }
     ],
     "pack_format": 15,
+    "min_format": 15,
+    "max_format": 999,
     "supported_formats": [15, 999]
   },
   "overlays": {
     "entries": [
       {
         "formats": [48, 999],
+        "min_format": 48,
+        "max_format": 999,
         "directory": "overlay_1_21"
+      },
+      {
+        "formats": [88, 999],
+        "min_format": 88,
+        "max_format": 999,
+        "directory": "overlay_1_21_9"
       }
     ]
   }

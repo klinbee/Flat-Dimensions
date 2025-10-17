@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:find_top_surface",
+  "cell_height": 8,
+  "density": {
+    "type": "minecraft:add",
+    "argument1": "flat_dimensions:overworld/terrain/sloped_cheese",
+    "argument2": -0.060625
+  },
+  "upper_bound": 128,
+  "lower_bound": 40
+}
